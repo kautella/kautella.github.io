@@ -1,0 +1,51 @@
+body {
+    font-family: monospace;
+    font-size: 12px;
+    color: #222222;
+    margin: 20px 10px 0px 20px;
+    text-align: left;
+}
+pre.manheader {
+    font-family: monospace;
+    font-size: 12px;
+    margin: 10px 0px 0px 0px;
+}
+h1 {
+    font-size: 12px;
+    font-weight: bold;
+    margin: 15px 0px 0px 0px;
+}
+p.subtext {
+    margin: 0px 0px 10px 50px;
+    width: 575px;
+}
+p.doublesubtext {
+    margin: 0px 0px 10px 70px;
+    width: 525px;
+}
+p.triplesubtext {
+    margin: 0px 0px 10px 90px;
+    width: 475px;
+}
+p.bottomcut { margin-bottom: 0px; }
+a, a.active, a.visited, a.hover {
+    color: #222222;
+    text-decoration: underline;
+}
+p.footer {
+    margin: 10px 0px 20px 0px;
+    color: #CCCCCC;
+}
+div.linkfloater {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    padding: 5px;
+    text-align: right;
+    background-color: #222222;
+    color: #FFFFFF;
+}
+div.linkfloater a:link, div.linkfloater a:visited, div.linkfloater a:hover {
+    color: #00FF00;
+    text-decoration: underline;
+}
